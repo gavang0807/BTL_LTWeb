@@ -1,0 +1,19 @@
+DEMO BTL NHÓM 1: HỆ THỐNG BLOG ONLINE
+1.  Các thành viên:
+    -   Nguyễn Tiến Anh - B17DCVT014
+    -   Hoàng Văn Lộc
+
+2.  Mô tả hệ thống:
+    -   Hệ thống dùng spring sercurity để bảo mật (đăng nhập, đăng ký)
+    -   Spring thymleaf để xây dựng frontend
+    -   Spring jpa để ánh xạ các model vào các bảng trong database
+    -   Dù̀ng những câu lệnh có sẵn để thao tác với database
+        -   Controller: trả về View thể hiện dưới dạng API cho View
+        -   Service: chứa các code tính toán, xử lý. Khi Controller yêu cầu, thì Service tương ứng sẽ tiếp nhận và cho ra dữ liệu trả cho Controller
+        -   Repository: dùng để thao tác với database
+        -   Templates: giao diện Client
+        -   Security: yêu cầu người dùng cần có một tài khoản để có thể comment trong 1 post (user Anonymous đại diện cho những người chưa đăng nhập)
+
+3.  Phân công công việc:
+    -   Nguyễn Tiến Anh: xây dựng lớp controller, model, repository, đóng góp xây dựng templates
+    -   Hoàng Văn Lộc: xây dựng lớp security, service, templates
